@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-22T16:25:07.660Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36 Edg/107.0.1418.52" etag="p7Hr6jBgt2h-RLdSy2oZ" version="20.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-22T16:30:40.275Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36 Edg/107.0.1418.52" etag="OoXj4s5bvTEDcICRsHUV" version="20.5.3" type="github">
   <diagram id="prtHgNgQTEPvFCAcTncT" name="Page-1">
     <mxGraphModel dx="5323" dy="2457" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -293,7 +293,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="O4Qgs0peFkR4fyQX--3b-1" value="进入场景" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="2020" y="-120" width="120" height="60" as="geometry" />
+          <mxGeometry x="2015" y="-130" width="130" height="60" as="geometry" />
         </mxCell>
         <mxCell id="O4Qgs0peFkR4fyQX--3b-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="O4Qgs0peFkR4fyQX--3b-2" target="O4Qgs0peFkR4fyQX--3b-4">
           <mxGeometry relative="1" as="geometry" />
@@ -405,6 +405,11 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="O4Qgs0peFkR4fyQX--3b-54" value="Selector？" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="O4Qgs0peFkR4fyQX--3b-45">
+          <mxGeometry x="0.7642" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="O4Qgs0peFkR4fyQX--3b-10" value="自由状态" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="2276" y="285" width="120" height="60" as="geometry" />
         </mxCell>
@@ -470,8 +475,8 @@
         <mxCell id="O4Qgs0peFkR4fyQX--3b-30" value="Idle动画" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1520" y="220" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="O4Qgs0peFkR4fyQX--3b-37" value="该节点为全局检测节点" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="2050" y="120" width="140" height="30" as="geometry" />
+        <mxCell id="O4Qgs0peFkR4fyQX--3b-37" value="&lt;b&gt;该节点为全局检测节点&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="2060" y="120" width="140" height="30" as="geometry" />
         </mxCell>
         <mxCell id="O4Qgs0peFkR4fyQX--3b-39" value="协程：动画、UI、&lt;br&gt;语音...通过变量initThisIT控制&lt;br&gt;只触发一次。" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fontSize=11;size=0.08333333333333333;" vertex="1" parent="1">
           <mxGeometry x="1470" y="710" width="120" height="60" as="geometry" />
@@ -495,6 +500,12 @@
         </mxCell>
         <mxCell id="O4Qgs0peFkR4fyQX--3b-49" value="Block2" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="2310" y="455" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="O4Qgs0peFkR4fyQX--3b-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="O4Qgs0peFkR4fyQX--3b-56" target="O4Qgs0peFkR4fyQX--3b-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="O4Qgs0peFkR4fyQX--3b-56" value="一旦Kinect丢失用户，则回归这里" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="1600" y="-60" width="190" height="100" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
