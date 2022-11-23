@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-11-23T03:50:01.679Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36 Edg/107.0.1418.52" etag="CVPS5bj29LgNhWwgPew6" version="20.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-23T03:54:16.883Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36 Edg/107.0.1418.52" etag="Wf0R7TsTNqP6LS7p6eu2" version="20.5.3" type="github">
   <diagram id="prtHgNgQTEPvFCAcTncT" name="Page-1">
-    <mxGraphModel dx="4361" dy="1751" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="6863" dy="3134" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -490,12 +490,21 @@
         <mxCell id="O4Qgs0peFkR4fyQX--3b-44" value="协程：动画、UI、&lt;br&gt;语音...通过变量initThisIT控制&lt;br&gt;只触发一次。" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fontSize=11;size=0.08333333333333333;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
           <mxGeometry x="2276" y="770" width="120" height="130" as="geometry" />
         </mxCell>
-        <mxCell id="O4Qgs0peFkR4fyQX--3b-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="O4Qgs0peFkR4fyQX--3b-47" target="O4Qgs0peFkR4fyQX--3b-6" edge="1">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="O4Qgs0peFkR4fyQX--3b-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="AOAPaa1UhblSv_J59rql-22" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="3064.000000000001" y="1090" as="sourcePoint" />
+            <mxPoint x="2880" y="260" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="2985" y="1030" />
+              <mxPoint x="3189" y="1030" />
+              <mxPoint x="3189" y="660" />
+              <mxPoint x="2880" y="660" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="O4Qgs0peFkR4fyQX--3b-51" value="可能有一个剧情会涉及到进入游戏界面，只需要&lt;br&gt;把全局isInteractiveMode设置为False即可" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="O4Qgs0peFkR4fyQX--3b-50" vertex="1" connectable="0">
           <mxGeometry x="-0.4681" y="-1" relative="1" as="geometry">
-            <mxPoint as="offset" />
+            <mxPoint x="10" y="5" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="AOAPaa1UhblSv_J59rql-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=15;exitX=1;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="O4Qgs0peFkR4fyQX--3b-47" target="AOAPaa1UhblSv_J59rql-16">
@@ -552,16 +561,50 @@
         <mxCell id="AOAPaa1UhblSv_J59rql-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=15;" edge="1" parent="1" source="AOAPaa1UhblSv_J59rql-22" target="AOAPaa1UhblSv_J59rql-25">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="AOAPaa1UhblSv_J59rql-27" value="完成的随机剧情&lt;br&gt;是否有下一个指定剧情" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=15;" vertex="1" connectable="0" parent="AOAPaa1UhblSv_J59rql-26">
-          <mxGeometry x="-0.2105" relative="1" as="geometry">
+        <mxCell id="AOAPaa1UhblSv_J59rql-28" value="若完成" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=15;" vertex="1" connectable="0" parent="AOAPaa1UhblSv_J59rql-26">
+          <mxGeometry x="-0.2984" y="-2" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="AOAPaa1UhblSv_J59rql-22" value="随机剧情场景" style="whiteSpace=wrap;html=1;fontSize=15;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="2925" y="1060" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="AOAPaa1UhblSv_J59rql-25" value="" style="rhombus;whiteSpace=wrap;html=1;fontSize=15;rounded=0;" vertex="1" parent="1">
+        <mxCell id="AOAPaa1UhblSv_J59rql-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;fontSize=15;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="AOAPaa1UhblSv_J59rql-25" target="AOAPaa1UhblSv_J59rql-31">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2770" y="1280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AOAPaa1UhblSv_J59rql-30" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=15;" vertex="1" connectable="0" parent="AOAPaa1UhblSv_J59rql-29">
+          <mxGeometry x="-0.4104" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AOAPaa1UhblSv_J59rql-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=15;" edge="1" parent="1" source="AOAPaa1UhblSv_J59rql-25" target="AOAPaa1UhblSv_J59rql-22">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="3140" y="1220" />
+              <mxPoint x="3140" y="1090" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AOAPaa1UhblSv_J59rql-25" value="&lt;span style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;完成的随机剧情&lt;/span&gt;&lt;br style=&quot;&quot;&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;是否有下一个指定剧情&lt;/span&gt;" style="rhombus;whiteSpace=wrap;html=1;fontSize=15;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="2902.5" y="1190" width="165" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="AOAPaa1UhblSv_J59rql-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=15;" edge="1" parent="1" source="AOAPaa1UhblSv_J59rql-31" target="AOAPaa1UhblSv_J59rql-22">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="3140" y="1320" />
+              <mxPoint x="3140" y="1090" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AOAPaa1UhblSv_J59rql-35" value="进行循环" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=15;" vertex="1" connectable="0" parent="AOAPaa1UhblSv_J59rql-34">
+          <mxGeometry x="0.2761" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AOAPaa1UhblSv_J59rql-31" value="完成接下来的指定剧情" style="whiteSpace=wrap;html=1;fontSize=15;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="2710" y="1290" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
