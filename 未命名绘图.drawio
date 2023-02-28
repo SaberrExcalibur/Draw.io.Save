@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-11-23T04:12:05.786Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36 Edg/107.0.1418.52" etag="RDKgf46218qWAYv_tDLg" version="20.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2023-02-28T12:38:32.498Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36 Edg/110.0.1587.56" etag="YSAWsw2eg5l6Cz_XBziN" version="20.8.23" type="github">
   <diagram id="prtHgNgQTEPvFCAcTncT" name="Page-1">
-    <mxGraphModel dx="4730" dy="1955" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="4285" dy="1789" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -478,7 +478,7 @@
         <mxCell id="O4Qgs0peFkR4fyQX--3b-37" value="&lt;b&gt;该节点为全局检测节点&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="2060" y="120" width="140" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="AOAPaa1UhblSv_J59rql-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=15;" edge="1" parent="1" source="O4Qgs0peFkR4fyQX--3b-39" target="AOAPaa1UhblSv_J59rql-9">
+        <mxCell id="AOAPaa1UhblSv_J59rql-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=15;" parent="1" source="O4Qgs0peFkR4fyQX--3b-39" target="AOAPaa1UhblSv_J59rql-9" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="O4Qgs0peFkR4fyQX--3b-39" value="协程：动画、UI、&lt;br&gt;语音...通过变量initThisIT控制&lt;br&gt;只触发一次。" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fontSize=11;size=0.08333333333333333;" parent="1" vertex="1">
@@ -507,7 +507,7 @@
             <mxPoint x="10" y="5" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="AOAPaa1UhblSv_J59rql-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=15;exitX=1;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="O4Qgs0peFkR4fyQX--3b-47" target="AOAPaa1UhblSv_J59rql-16">
+        <mxCell id="AOAPaa1UhblSv_J59rql-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=15;exitX=1;exitY=1;exitDx=0;exitDy=0;" parent="1" source="O4Qgs0peFkR4fyQX--3b-47" target="AOAPaa1UhblSv_J59rql-16" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="O4Qgs0peFkR4fyQX--3b-47" value="冷场之后将block1、block2进行锁死，打开block3.&lt;br&gt;执行剧情的逻辑." style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
@@ -522,64 +522,64 @@
         <mxCell id="O4Qgs0peFkR4fyQX--3b-56" value="一旦Kinect丢失用户，&lt;br&gt;则回归这里" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
           <mxGeometry x="1600" y="-60" width="190" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="AOAPaa1UhblSv_J59rql-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="AOAPaa1UhblSv_J59rql-5" target="O4Qgs0peFkR4fyQX--3b-30">
+        <mxCell id="AOAPaa1UhblSv_J59rql-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="AOAPaa1UhblSv_J59rql-5" target="O4Qgs0peFkR4fyQX--3b-30" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="AOAPaa1UhblSv_J59rql-5" value="这个状态时默认&lt;br&gt;待机状态" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="AOAPaa1UhblSv_J59rql-5" value="这个状态时默认&lt;br&gt;待机状态" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1280" y="145" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="AOAPaa1UhblSv_J59rql-7" value="&lt;ol style=&quot;font-size: 15px;&quot;&gt;&lt;li style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;交互场景的匹配机制：识别动作序号id，作为http监听到的标识。&lt;/font&gt;&lt;/li&gt;&lt;li style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;每一个交互类型中存有的属性有：（&lt;b&gt;未完全考虑&lt;/b&gt;）&lt;/font&gt;&lt;/li&gt;&lt;/ol&gt;&lt;ul style=&quot;font-size: 15px;&quot;&gt;&lt;li style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;动画名称：string&lt;/font&gt;&lt;/li&gt;&lt;li style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;音频：clip&lt;/font&gt;&lt;/li&gt;&lt;li style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;UI：&lt;b&gt;待定&lt;/b&gt;&lt;/font&gt;&lt;/li&gt;&lt;li style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;交互完成后是否有回应交互信息：boolean（待定）&lt;/font&gt;&lt;/li&gt;&lt;li style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;该回应交互信息的clip、UI&lt;/font&gt;&lt;/li&gt;&lt;li style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;该交互情景结束后是否有下一个指定的交互情景：bool&lt;/font&gt;&lt;/li&gt;&lt;li style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;下一个指定的交互场景名称：string&lt;/font&gt;&lt;/li&gt;&lt;/ul&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;align=left;" vertex="1" parent="1">
+        <mxCell id="AOAPaa1UhblSv_J59rql-7" value="&lt;ol style=&quot;font-size: 15px;&quot;&gt;&lt;li style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;交互场景的匹配机制：识别动作序号id，作为http监听到的标识。&lt;/font&gt;&lt;/li&gt;&lt;li style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;每一个交互类型中存有的属性有：（&lt;b&gt;未完全考虑&lt;/b&gt;）&lt;/font&gt;&lt;/li&gt;&lt;/ol&gt;&lt;ul style=&quot;font-size: 15px;&quot;&gt;&lt;li style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;动画名称：string&lt;/font&gt;&lt;/li&gt;&lt;li style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;音频：clip&lt;/font&gt;&lt;/li&gt;&lt;li style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;UI：&lt;b&gt;待定&lt;/b&gt;&lt;/font&gt;&lt;/li&gt;&lt;li style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;交互完成后是否有回应交互信息：boolean（待定）&lt;/font&gt;&lt;/li&gt;&lt;li style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;该回应交互信息的clip、UI&lt;/font&gt;&lt;/li&gt;&lt;li style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;该交互情景结束后是否有下一个指定的交互情景：bool&lt;/font&gt;&lt;/li&gt;&lt;li style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;下一个指定的交互场景名称：string&lt;/font&gt;&lt;/li&gt;&lt;/ul&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;align=left;" parent="1" vertex="1">
           <mxGeometry x="2570" y="-230" width="360" height="360" as="geometry" />
         </mxCell>
-        <mxCell id="AOAPaa1UhblSv_J59rql-9" value="介绍功能：“你可以向与我对话，或者与我做出手势进行互动。如果你不知道要做什么我会给你在屏幕上进行提示之类的" style="whiteSpace=wrap;html=1;fontSize=11;" vertex="1" parent="1">
+        <mxCell id="AOAPaa1UhblSv_J59rql-9" value="介绍功能：“你可以向与我对话，或者与我做出手势进行互动。如果你不知道要做什么我会给你在屏幕上进行提示之类的" style="whiteSpace=wrap;html=1;fontSize=11;" parent="1" vertex="1">
           <mxGeometry x="1465" y="850" width="130" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="AOAPaa1UhblSv_J59rql-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=15;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="AOAPaa1UhblSv_J59rql-16" target="AOAPaa1UhblSv_J59rql-20">
+        <mxCell id="AOAPaa1UhblSv_J59rql-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=15;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="AOAPaa1UhblSv_J59rql-16" target="AOAPaa1UhblSv_J59rql-20" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="2670" y="1050" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="AOAPaa1UhblSv_J59rql-21" value="thisAnimName=“”" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=15;" vertex="1" connectable="0" parent="AOAPaa1UhblSv_J59rql-18">
+        <mxCell id="AOAPaa1UhblSv_J59rql-21" value="thisAnimName=“”" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=15;" parent="AOAPaa1UhblSv_J59rql-18" vertex="1" connectable="0">
           <mxGeometry x="0.2721" y="-1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="AOAPaa1UhblSv_J59rql-16" value="是否第一次触发剧情" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="AOAPaa1UhblSv_J59rql-16" value="是否第一次触发剧情" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="2770" y="790" width="240" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="AOAPaa1UhblSv_J59rql-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=15;" edge="1" parent="1" source="AOAPaa1UhblSv_J59rql-20" target="AOAPaa1UhblSv_J59rql-22">
+        <mxCell id="AOAPaa1UhblSv_J59rql-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=15;" parent="1" source="AOAPaa1UhblSv_J59rql-20" target="AOAPaa1UhblSv_J59rql-22" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="AOAPaa1UhblSv_J59rql-24" value="若完成" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=15;" vertex="1" connectable="0" parent="AOAPaa1UhblSv_J59rql-23">
+        <mxCell id="AOAPaa1UhblSv_J59rql-24" value="若完成" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=15;" parent="AOAPaa1UhblSv_J59rql-23" vertex="1" connectable="0">
           <mxGeometry x="-0.1113" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="AOAPaa1UhblSv_J59rql-20" value="进入指定剧情1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="1">
+        <mxCell id="AOAPaa1UhblSv_J59rql-20" value="进入指定剧情1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;" parent="1" vertex="1">
           <mxGeometry x="2600" y="1060" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="AOAPaa1UhblSv_J59rql-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=15;" edge="1" parent="1" source="AOAPaa1UhblSv_J59rql-22" target="AOAPaa1UhblSv_J59rql-25">
+        <mxCell id="AOAPaa1UhblSv_J59rql-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=15;" parent="1" source="AOAPaa1UhblSv_J59rql-22" target="AOAPaa1UhblSv_J59rql-25" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="AOAPaa1UhblSv_J59rql-28" value="若完成" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=15;" vertex="1" connectable="0" parent="AOAPaa1UhblSv_J59rql-26">
+        <mxCell id="AOAPaa1UhblSv_J59rql-28" value="若完成" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=15;" parent="AOAPaa1UhblSv_J59rql-26" vertex="1" connectable="0">
           <mxGeometry x="-0.2984" y="-2" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="AOAPaa1UhblSv_J59rql-22" value="随机剧情场景" style="whiteSpace=wrap;html=1;fontSize=15;rounded=0;" vertex="1" parent="1">
+        <mxCell id="AOAPaa1UhblSv_J59rql-22" value="随机剧情场景" style="whiteSpace=wrap;html=1;fontSize=15;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="2925" y="1060" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="AOAPaa1UhblSv_J59rql-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;fontSize=15;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="AOAPaa1UhblSv_J59rql-25" target="AOAPaa1UhblSv_J59rql-31">
+        <mxCell id="AOAPaa1UhblSv_J59rql-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;fontSize=15;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="AOAPaa1UhblSv_J59rql-25" target="AOAPaa1UhblSv_J59rql-31" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="2770" y="1280" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="AOAPaa1UhblSv_J59rql-30" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=15;" vertex="1" connectable="0" parent="AOAPaa1UhblSv_J59rql-29">
+        <mxCell id="AOAPaa1UhblSv_J59rql-30" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=15;" parent="AOAPaa1UhblSv_J59rql-29" vertex="1" connectable="0">
           <mxGeometry x="-0.4104" y="-2" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="AOAPaa1UhblSv_J59rql-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=15;" edge="1" parent="1" source="AOAPaa1UhblSv_J59rql-25" target="AOAPaa1UhblSv_J59rql-22">
+        <mxCell id="AOAPaa1UhblSv_J59rql-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=15;" parent="1" source="AOAPaa1UhblSv_J59rql-25" target="AOAPaa1UhblSv_J59rql-22" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="3140" y="1220" />
@@ -587,10 +587,10 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="AOAPaa1UhblSv_J59rql-25" value="&lt;span style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;完成的随机剧情&lt;/span&gt;&lt;br style=&quot;&quot;&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;是否有下一个指定剧情&lt;/span&gt;" style="rhombus;whiteSpace=wrap;html=1;fontSize=15;rounded=0;" vertex="1" parent="1">
+        <mxCell id="AOAPaa1UhblSv_J59rql-25" value="&lt;span style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;完成的随机剧情&lt;/span&gt;&lt;br style=&quot;&quot;&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;是否有下一个指定剧情&lt;/span&gt;" style="rhombus;whiteSpace=wrap;html=1;fontSize=15;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="2902.5" y="1190" width="165" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="AOAPaa1UhblSv_J59rql-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=15;" edge="1" parent="1" source="AOAPaa1UhblSv_J59rql-31" target="AOAPaa1UhblSv_J59rql-22">
+        <mxCell id="AOAPaa1UhblSv_J59rql-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=15;" parent="1" source="AOAPaa1UhblSv_J59rql-31" target="AOAPaa1UhblSv_J59rql-22" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="3140" y="1320" />
@@ -598,13 +598,31 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="AOAPaa1UhblSv_J59rql-35" value="进行循环" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=15;" vertex="1" connectable="0" parent="AOAPaa1UhblSv_J59rql-34">
+        <mxCell id="AOAPaa1UhblSv_J59rql-35" value="进行循环" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=15;" parent="AOAPaa1UhblSv_J59rql-34" vertex="1" connectable="0">
           <mxGeometry x="0.2761" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="AOAPaa1UhblSv_J59rql-31" value="完成接下来的指定剧情" style="whiteSpace=wrap;html=1;fontSize=15;rounded=0;" vertex="1" parent="1">
+        <mxCell id="AOAPaa1UhblSv_J59rql-31" value="完成接下来的指定剧情" style="whiteSpace=wrap;html=1;fontSize=15;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="2710" y="1290" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0kcmWsL5twQ8xmWLUfCG-1" value="&lt;font style=&quot;font-size: 21px;&quot;&gt;状态机&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-3308" y="-1169" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0kcmWsL5twQ8xmWLUfCG-2" value="&lt;font size=&quot;1&quot;&gt;当识别到用户时&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=21;" vertex="1" parent="1">
+          <mxGeometry x="-2860" y="-910" width="160" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="0kcmWsL5twQ8xmWLUfCG-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;" edge="1" parent="1" source="0kcmWsL5twQ8xmWLUfCG-3" target="0kcmWsL5twQ8xmWLUfCG-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0kcmWsL5twQ8xmWLUfCG-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=12;" edge="1" parent="1" source="0kcmWsL5twQ8xmWLUfCG-3" target="0kcmWsL5twQ8xmWLUfCG-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0kcmWsL5twQ8xmWLUfCG-3" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;loop_begin&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="-2860" y="-1090" width="160" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="0kcmWsL5twQ8xmWLUfCG-5" value="&lt;font style=&quot;font-size: 13px;&quot;&gt;当用户丢失时&lt;/font&gt;" style="whiteSpace=wrap;html=1;fontSize=21;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-2550" y="-908.75" width="120" height="47.5" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
